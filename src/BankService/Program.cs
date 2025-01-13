@@ -11,7 +11,6 @@ var configuration = builder.Configuration
     .Build();
 
 builder.Services.AddBankServices(configuration);
-builder.Services.AddDatabase(configuration);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
